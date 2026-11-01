@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class OrderCalculator {
 
     // Константы: все пороги и ставка лежат в одном месте
-    private static final double VAT_RATE = 0.20; // ставку подставишь по своему варианту
+    private static final double VAT_RATE = 0.10; // вариант 1: ставка НДС 10 %
     private static final int MIN_QUANTITY = 1;
     private static final int MAX_QUANTITY = 10_000;
     private static final double MAX_PRICE = 5_000_000;
